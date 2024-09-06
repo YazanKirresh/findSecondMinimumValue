@@ -31,7 +31,7 @@ root.val == min(root.left.val, root.right.val) for each internal node of the tre
 
  */
 
- public class Main {
+ public class App {
 
     public static int findSecondMinimumValue(TreeNode root) {
         if (root == null){
