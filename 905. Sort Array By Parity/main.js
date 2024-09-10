@@ -17,3 +17,4 @@ var sortArrayByParity = function(nums) {
 
 let nums = [3,1,2,4];
 sortArrayByParity(nums);
+// Test
