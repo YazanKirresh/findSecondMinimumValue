@@ -3,6 +3,8 @@ var sortArrayByParity = function(nums) {
     var right = 0;
     while (left < nums.length){
         if (nums[left] % 2 == 0) {
+            // we reach an even number, therfore we will swap the values
+            // we can uuse [nums[left], nums[right]]=[nums[right], nums[left]]
             let temp = nums[left];
             nums[left] = nums[right];
             nums[right] = temp;
@@ -17,4 +19,3 @@ var sortArrayByParity = function(nums) {
 
 let nums = [3,1,2,4];
 sortArrayByParity(nums);
-// Test
